@@ -31,7 +31,7 @@
     UIBezierPath *circlePath = [UIBezierPath bezierPathWithArcCenter:CGPointMake(size.width / 2, size.height / 2) radius:size.width / 2 startAngle:1.5 * M_PI endAngle:M_PI clockwise:true];
     
     circle.path = circlePath.CGPath;
-    circle.lineWidth = 2;
+    circle.lineWidth = 3;
     circle.fillColor = nil;
     circle.strokeColor = tintColor.CGColor;
     
